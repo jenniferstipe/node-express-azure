@@ -14,7 +14,7 @@ steps:
     npm install
   displayName: 'npm install'
 
- commenting this out temporarily, it is causing a TypeError in the pipeline
+# commenting this out temporarily, it is causing a TypeError in the pipeline
 - script: |
     npm test
   displayName: 'npm test'
